@@ -36,6 +36,13 @@ public class Menulogic : MonoBehaviour
         CreditsMenu.SetActive(false);
     }
 
+    public void BackButton()
+    {
+        // Show Main Menu
+        MainMenu.SetActive(true);
+        CreditsMenu.SetActive(false);
+    }
+
     public void QuitButton()
     {
         // Quit Game
