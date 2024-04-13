@@ -3,7 +3,7 @@ Ludum Dare 55
 THEME - SUMMONING
 
 Tartu Ülikooli Mängujämm 2024
-Meeskonna liikmed : Marko Laanemäe, Rene Puusepp, Sandra Erik, Richard Silm
+Meeskonna liikmed : Marko Laanemäe, Rene Puusepp, Sandra Erik, Richard Silm, Matis Tõnisson
 
 Used tools and software:
 - Unity 2022.3.24f1 for game engine
