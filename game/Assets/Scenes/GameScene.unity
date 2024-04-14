@@ -7190,9 +7190,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81cb0fbf5570af74fa4e07876d950e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  speed: 5
   weapon: {fileID: 1856642061}
-  offset: 0
+  offset: 135
   shotPoint: {fileID: 0}
   projectile: {fileID: 0}
   timeBetweenShots: 0
