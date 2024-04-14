@@ -1,5 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using JetBrains.Annotations;
+using UnityEditor;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -12,8 +14,13 @@ public class PlayerController : MonoBehaviour
 	public GameObject projectile;
 	public float timeBetweenShots;
 	float nextShotTime;
+	Spirits[] allspirits;
 	void Start()
 	{
+        gameObject.AddComponent<Spirit1>(firstspirit);
+        //gameObject.AddComponent<Spirit2>(Ghost2);
+        //gameObject.AddComponent<Spirit3>(Ghost3);
+        allspirits = GetComponentsInChildren<Spirits>();
 
 	}
 	void Update()
@@ -33,5 +40,7 @@ public class PlayerController : MonoBehaviour
 				Instantiate(projectile, shotPoint.position, shotPoint.rotation);
 			}
 		}
+		//foreach (Spirits spirit allspirits)
+		//if(Input.GetKey(Spirit1.nupp))
 	}
 }
