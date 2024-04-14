@@ -21,7 +21,7 @@ public class Enemy : MonoBehaviour
         {
             TakeDamage(other.GetComponent<Projectile>().damage);
         }
-        if (other.tag == "Player")
+        if (other.tag == "PlayerCharacter")
         {
             SceneManager.LoadScene("GameScene");
         }

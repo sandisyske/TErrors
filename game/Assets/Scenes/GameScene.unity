@@ -9441,7 +9441,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeBetweenSpawns: 2
-  enemy: {fileID: 0}
+  enemy: {fileID: 1679151414055449957, guid: cd54cddd4462ea0408808acacb3bd506, type: 3}
   spawnPoints:
   - {fileID: 97751304}
   - {fileID: 214486870}
@@ -9501,7 +9501,7 @@ GameObject:
   - component: {fileID: 822653228}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: PlayerCharacter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
