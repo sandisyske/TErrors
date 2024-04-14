@@ -16,8 +16,8 @@ public class Spawner : MonoBehaviour
         if (Time.time > nextSpawnTime)
         {
             nextSpawnTime = Time.time + timeBetweenSpawns;
-           // Transform randomSpawnPoint = spawnPoints[Random.Range(0, spawnPoints.Length)];
-          //  Instantiate(enemy, randomSpawnPoint.position, Quaternion.identity);
+            Transform randomSpawnPoint = spawnPoints[Random.Range(0, spawnPoints.Length)];
+            Instantiate(enemy, randomSpawnPoint.position, Quaternion.identity);
         }
     }
 
