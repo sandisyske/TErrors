@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
 	public float speed;
 	public Transform weapon;
 	public float offset;
-
+	public int health;
 	public Transform shotPoint;
 	public GameObject projectile;
 	public float timeBetweenShots;
