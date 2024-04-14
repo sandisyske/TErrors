@@ -15,9 +15,12 @@ public class PlayerController : MonoBehaviour
 	public float timeBetweenShots;
 	float nextShotTime;
 	Spirits[] allspirits;
+	public GameObject Ghost;
 	void Start()
 	{
-        gameObject.AddComponent<Spirit1>(firstspirit);
+        Ghost.AddComponent<firstspirit>();
+		Spirit1.Instantiate(Ghost);
+        
         //gameObject.AddComponent<Spirit2>(Ghost2);
         //gameObject.AddComponent<Spirit3>(Ghost3);
         allspirits = GetComponentsInChildren<Spirits>();
@@ -40,7 +43,11 @@ public class PlayerController : MonoBehaviour
 				Instantiate(projectile, shotPoint.position, shotPoint.rotation);
 			}
 		}
-		//foreach (Spirits spirit allspirits)
-		//if(Input.GetKey(Spirit1.nupp))
+		foreach (Spirits spirit in allspirits) 
+		{
+			//if (Input.GetKey(.nupp) ; jäi pooleli
+
+        }
+	
 	}
 }
