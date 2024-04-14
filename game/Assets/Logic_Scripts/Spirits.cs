@@ -20,8 +20,8 @@ public abstract class Spirits : MonoBehaviour
 public class Spirit1 : Spirits 
 {
 
-    private KeyCode nupp = KeyCode.Alpha1;
-    private GameObject summon;
+    public KeyCode nupp = KeyCode.Alpha1;
+    public GameObject summon;
 
     public Spirit1( GameObject summon)
     {
