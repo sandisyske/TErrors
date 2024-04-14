@@ -26,7 +26,7 @@ public class Enemy : MonoBehaviour
             SceneManager.LoadScene("GameScene");
         }
     }
-    void TakeDamage(int damageAmount)
+    public void TakeDamage(int damageAmount)
     {
         health -= damageAmount;
         if (health <= 0)
