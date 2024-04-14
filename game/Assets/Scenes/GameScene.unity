@@ -9538,9 +9538,10 @@ MonoBehaviour:
   speed: 5
   weapon: {fileID: 1856642061}
   offset: 135
-  shotPoint: {fileID: 0}
-  projectile: {fileID: 0}
-  timeBetweenShots: 0
+  shotPoint: {fileID: 1268563965}
+  projectile: {fileID: 5072809926069661410, guid: a7a776eaed0653c4eafc0264a1845cca,
+    type: 3}
+  timeBetweenShots: 0.3
 --- !u!70 &822653228
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -9790,13 +9791,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1268563964}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.076, y: 0.074, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.39385128, w: 0.9191742}
+  m_LocalPosition: {x: 0.15600002, y: 0.16100001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1856642061}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -46.389}
 --- !u!1 &1275512042
 GameObject:
   m_ObjectHideFlags: 0
