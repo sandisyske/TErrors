@@ -23,7 +23,7 @@ public class Enemy : MonoBehaviour
         }
         if (other.tag == "PlayerCharacter")
         {
-            SceneManager.LoadScene("GameScene");
+            SceneManager.LoadScene("MenuScene");
         }
     }
     public void TakeDamage(int damageAmount)
