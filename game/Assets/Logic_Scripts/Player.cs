@@ -28,17 +28,19 @@ public class Player : MonoBehaviour
         }
 
         mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        //mousePosition = Input.mousePosition;
         //debug.transform.position = mousePosition;
 
     }
 
     void FixedUpdate()
     {
-        //var moveDirection = (-transform.right * movement.y + -transform.up * movement.x).normalized;
-        //rb.MovePosition(rb.position + new Vector2(moveDirection.x, moveDirection.y) * moveSpeed * Time.fixedDeltaTime);
+        var moveDirection = (-transform.right * movement.y + -transform.up * movement.x).normalized;
+        rb.MovePosition(rb.position + new Vector2(moveDirection.x, moveDirection.y) * moveSpeed * Time.fixedDeltaTime);
         rb.velocity = new Vector2(movement.x, movement.y) * moveSpeed * Time.fixedDeltaTime;
-        var direction = new Vector2(transform.position.x, transform.position.y) - mousePosition;
-        var rotation = Quaternion.LookRotation(direction);
+        var direction = mousePosition - new Vector2(transform.position.x, transform.position.y);
+        Quaternion rotation = Quaternion.LookRotation(direction, Vector3.up);
         rb.MoveRotation(rotation);
     }
+
 }
