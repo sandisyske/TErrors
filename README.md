@@ -1,4 +1,4 @@
-# TErrors - (GAME NAME UNKNOWN)
+# TErrors - panic attack
 Ludum Dare 55
 THEME - SUMMONING
 
@@ -6,14 +6,10 @@ Tartu Ülikooli Mängujämm 2024
 Meeskonna liikmed : Marko Laanemäe, Rene Puusepp, Sandra Erik, Richard Silm, Matis Tõnisson
 
 Used tools and software:
-- Unity 2022.3.24f1 for game engine
+- Unity for game engine
 - Git for source control
 - Different tools for art and music software
-  - Aseprite (sprites), MSPaint (static pictures)
+  - Aseprite (sprites)
   - SF Pixelate, open source font by ShyFoundry Fonts
-  - Audacity, Pxtone for music and balancing
-  - Bfxr for sound effects
 - Discord for communication
 
-Game description:
-blem!
